@@ -1,0 +1,24 @@
+# LLM Configuration (Azure OpenAI)
+# Copy this to .env and fill in your values
+
+LLM_Wrapper_ENDPOINT=https://your-openai-endpoint.openai.azure.com/
+AZURE_OPENAI_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+OPENAI_API_VERSION=2024-02-15-preview
+DEFAULT_MODEL=gpt-4-turbo-preview
+
+# Assignment Configuration
+TOP_K_COUNT=3
+MIN_SCORE_THRESHOLD=40
+
+# ServiceNow Configuration
+SERVICENOW_ENABLED=true
+SERVICENOW_INSTANCE_URL=https://dev213430.service-now.com
+SERVICENOW_USERNAME=swathilakshmi.9344@gmail.com
+SERVICENOW_PASSWORD=Swathi@12345
+
+# ServiceNow Table Names (as created in your instance)
+SERVICENOW_ROSTER_TABLE=rosters
+SERVICENOW_INCIDENTS_TABLE=incidents_1s
+SERVICENOW_ASSIGNMENTS_TABLE=assignments_trackings
+SERVICENOW_WORKLOAD_TABLE=workload_trackings
+
